@@ -15,9 +15,9 @@
 ```python
 mkdir mysite
 cd mysite
-git clone https://github.com/EngrArsalanPervez/django-skeleton.git
+git clone https://github.com/EngrArsalanPervez/django-skeleton .
 python3 -m venv venv
-source venv/bin/activate/
+source venv/bin/activate
 pip install -r requirements.txt
 python3 manage.py runserver
 ```
@@ -70,7 +70,7 @@ sudo mkdir /var/www/mysite.com
 sudo chown -R $USER:$USER /var/www/mysite.com
 
 cd mysite.com
-git clone https://github.com/EngrArsalanPervez/django-skeleton.git
+git clone https://github.com/EngrArsalanPervez/django-skeleton .
 
 python3 -m venv venv
 source venv/bin/activate/
