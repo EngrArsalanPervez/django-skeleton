@@ -61,7 +61,7 @@ INSTALL COMPONENT "file://component_validate_password";
 exit
 sudo phpenmod mbstring
 sudo systemctl restart apache2
-https://localhost/phpmyadmin
+http://localhost/phpmyadmin
 ```
 
 ##### Upload Web content
