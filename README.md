@@ -127,7 +127,7 @@ sudo nano /etc/apache2/apache2.conf
 sudo apache2ctl configtest
 sudo systemctl reload apache2
 
-nano /etc/hosts
+sudo nano /etc/hosts
 127.0.0.1 mysite.com
 127.0.0.1 www.mysite.com
 
