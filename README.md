@@ -69,11 +69,11 @@ http://localhost/phpmyadmin
 sudo mkdir /var/www/mysite.com
 sudo chown -R $USER:$USER /var/www/mysite.com
 
-cd mysite.com
+cd /var/www/mysite.com
 git clone https://github.com/EngrArsalanPervez/django-skeleton .
 
 python3 -m venv venv
-source venv/bin/activate/
+source venv/bin/activate
 
 pip install -r requirements.txt
 
