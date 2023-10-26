@@ -22,4 +22,4 @@ python3 manage.py runserver
 
 
 
-![alt text](https://github.com/EngrArsalanPervez/django-skeleton/blob/master/static/img/screen.jpg?raw=true)
+![alt text](https://github.com/EngrArsalanPervez/django-skeleton/blob/main/static/img/screen.jpg?raw=true)
