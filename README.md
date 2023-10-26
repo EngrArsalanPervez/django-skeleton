@@ -13,8 +13,8 @@
 
 ### HowTo Run with Python
 ```python
-mkdir site1
-cd site1
+mkdir mysite
+cd mysite
 git clone https://github.com/EngrArsalanPervez/django-skeleton.git
 python3 -m venv venv
 source venv/bin/activate/
@@ -105,15 +105,15 @@ sudo nano /etc/apache2/sites-available/mysite.com.conf
             Require all granted
         </Directory>
 
-        <Directory /var/www/mysite.com/site1>
+        <Directory /var/www/mysite.com/mysite>
             <Files wsgi.py>
                 Require all granted
             </Files>
         </Directory>
 
-        WSGIDaemonProcess site1 python-path=/var/www/mysite.com python-home=/var/www/mysite.com/venv
-        WSGIProcessGroup site1
-        WSGIScriptAlias / /var/www/mysite.com/site1/wsgi.py
+        WSGIDaemonProcess mysite python-path=/var/www/mysite.com python-home=/var/www/mysite.com/venv
+        WSGIProcessGroup mysite
+        WSGIScriptAlias / /var/www/mysite.com/mysite/wsgi.py
     </VirtualHost>
 
 sudo a2ensite mysite.com
