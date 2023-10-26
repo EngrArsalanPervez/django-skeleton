@@ -78,6 +78,7 @@ source venv/bin/activate/
 pip install -r requirements.txt
 
 python3 manage.py collectstatic
+python3 manage.py createsuperuser
 python3 manage.py runserver
 
 (Stop site and deactivate venv)
@@ -130,4 +131,7 @@ nano /etc/hosts
 127.0.0.1 www.mysite.com
 
 http://mysite.com
+http://mysite.com/static
+http://mysite.com/media
+http://mysite.com/admin
 ```
