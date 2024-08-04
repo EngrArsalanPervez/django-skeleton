@@ -136,3 +136,5 @@ http://mysite.com/static
 http://mysite.com/media
 http://mysite.com/admin
 ```
+
+Project Implemented on [Academic Master](https://academic-master.com/)
